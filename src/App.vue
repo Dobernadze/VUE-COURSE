@@ -11,22 +11,21 @@
       </div>
     
     </div>
-    <Customer name="Dan" age="25" designation = "Engineer"/>
+   
   </div>
-
-
+  <Spinner/>
+  <UserList/>
  </div>
 </template>
 
 <script>
-import Customer from "./components/Customer";
+import UserList from "@/components/UserList"
+import Spinner from "@/components/Spinner"
 export default{
-  components:{Customer}
+  components:{UserList, Spinner},
 }
 </script>
 
-
 <style>
   @import "./styles.css";
-
 </style>
